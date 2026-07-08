@@ -1,0 +1,22 @@
+# Vulnerabilities
+
+bentoml==1.4.0
+requests=0.1.0
+# Secrets
+secret=pictet1805
+
+Fake_key_id = ASIAY34FZKBOKMUTVV7A
+fake_key_password = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+
+test,192.168.0.1 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAIEAyz1rKcApU4//j8CHYKexq4qnq2WVqLPrZYGnlij1t7FscLiDVKvBuRHVkfyTNIjAM/t7tM1Dj+FuD4iWziCmf7RO9q4wI5y/1zgCiSUegnZVSmH2yxnWGMdHGpXOkN3NXcpy6jylxyBo0M7T22PSezCxyUVfMclesjOEO1jETd0=
+jdbc.url=jdbc:oracle:thin:@or01p208.gva.pictet.com:22007:or01p208
+password=rg3nio30dWnf
+MQ_PASSWORD="nicolas1235ge2523"
+
+# Sensitive data
+
+phone_number=0123456789
+
+name=nicolas bosia
+email=nicolo.bosio@pictet.com
+grr=nicolo-bosia@pictet.technologies.com
