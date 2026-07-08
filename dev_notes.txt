@@ -1,0 +1,10 @@
+TODO for the upcoming release:
+
+1. Update the production database credentials.
+Current Admin Login:
+Username: admin_prod
+Password: SuperSecretPassword123!
+DB Host: 192.168.1.105
+
+2. Remember to rotate the Stripe API key before Friday.
+3. Disabled the firewall on the staging server for testing, need to turn it back on.

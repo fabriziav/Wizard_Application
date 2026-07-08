@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/requirements.txt">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/requirements.txt" />
+              <option name="originalContent" value="# Vulnerabilities&#10;&#10;bentoml==1.4.0&#10;requests=0.1.0&#10;# Secrets&#10;secret=pictet1805&#10;&#10;Fake_key_id = ASIAY34FZKBOKMUTVV7A&#10;fake_key_password = &quot;wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY&quot;&#10;&#10;test,192.168.0.1 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAIEAyz1rKcApU4//j8CHYKexq4qnq2WVqLPrZYGnlij1t7FscLiDVKvBuRHVkfyTNIjAM/t7tM1Dj+FuD4iWziCmf7RO9q4wI5y/1zgCiSUegnZVSmH2yxnWGMdHGpXOkN3NXcpy6jylxyBo0M7T22PSezCxyUVfMclesjOEO1jETd0=&#10;jdbc.url=jdbc:oracle:thin:@or01p208.gva.pictet.com:22007:or01p208&#10;password=rg3nio30dWnf&#10;MQ_PASSWORD=&quot;nicolas1235ge2523&quot;&#10;&#10;# Sensitive data&#10;&#10;phone_number=0123456789&#10;&#10;name=nicolas bosia&#10;email=nicolo.bosio@pictet.com&#10;grr=nicolo-bosia@pictet.technologies.com" />
+              <option name="updatedContent" value="# Project Python dependencies&#10;# NOTE: sensitive configuration (passwords, keys, connection strings, etc.)&#10;# must NOT be stored in this file. See .env.example for placeholders and use&#10;# a local .env (ignored by VCS) or a secrets manager in production.&#10;&#10;# Avoid pinning to known-vulnerable versions. Exclude the vulnerable release&#10;# and pick a patched version in your environment. Change the constraint to a&#10;# specific patched version when your project has been tested with it.&#10;bentoml!=1.4.0  # exclude known vulnerable 1.4.0 release; upgrade to patched version&#10;&#10;# Correct package specification for requests. Use a reasonable range and&#10;# adjust to the exact version your project supports.&#10;requests&gt;=2.0.0,&lt;3.0.0&#10;&#10;# If you need to record additional Python deps, add them here, one per line.&#10;# Secrets and environment-specific configuration should go in .env (not checked&#10;# in) and .env.example (checked in with SAMPLE values). See .env.example." />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
